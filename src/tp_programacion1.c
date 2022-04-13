@@ -4,7 +4,7 @@
  Author      : Thomas Velazco
  Version     :
  Copyright   : Your copyright notice
- Description : Trabajo practico 1 programacion/laboratorio
+ Description : Trabajo practico 1 programacion/laboratorio 1
  ============================================================================
  */
 
