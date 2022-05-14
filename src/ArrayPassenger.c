@@ -297,6 +297,7 @@ int informData (Passenger* list, int len)
 		}
 	}while (option != 3);
 
+
 	return 0;
 }
 
