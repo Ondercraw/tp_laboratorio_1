@@ -34,7 +34,6 @@
  *
  *	                               EL TP ESTA INCOMPLETO
  *
- *
  */
 
 #include <stdio.h>
