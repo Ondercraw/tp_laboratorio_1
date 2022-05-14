@@ -29,7 +29,7 @@
  * 	1. Listado de los pasajeros ordenados alfabéticamente por Apellido y Tipo de pasajero.
  * 	2. Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio
  *	promedio.
- *	3. Listado de los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’
+ *	3. Listado de los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’.
  *
  *
  *	                               EL TP ESTA INCOMPLETO
