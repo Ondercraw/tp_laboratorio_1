@@ -19,8 +19,6 @@
 #include "Passenger.h"
 #include "inputs.h"
 
-
-
 int main()
 {
 	setbuf(stdout, NULL);
