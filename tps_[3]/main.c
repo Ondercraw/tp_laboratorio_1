@@ -31,12 +31,6 @@ int main()
     int banderaGuaTex = 0;
     int banderaGuaBin = 0;
 
-
-    //int cantidad;
-    //int auxiliar;
-
-
-
     LinkedList* listaPasajeros = ll_newLinkedList();
 
     do{
