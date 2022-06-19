@@ -1,7 +1,0 @@
-22:49:17 **** Incremental Build of configuration Debug for project tps_[4] ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o tps_[4].exe Controller.o LinkedList.o Passenger.o inputs.o main.o parser.o 
-
-22:49:17 Build Finished. 0 errors, 0 warnings. (took 824ms)
-
