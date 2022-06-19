@@ -19,6 +19,7 @@
 #include "Passenger.h"
 #include "inputs.h"
 
+
 int main()
 {
 	setbuf(stdout, NULL);
@@ -31,11 +32,7 @@ int main()
     int banderaGuaTex = 0;
     int banderaGuaBin = 0;
 
-
-    //int cantidad;
-    //int auxiliar;
-
-
+    LinkedList* clonarArray = NULL;
 
     LinkedList* listaPasajeros = ll_newLinkedList();
 
@@ -49,7 +46,8 @@ int main()
 				"7- Ordenar pasajeros.\n"
 				"8- Guardar los datos de los pasajeros en el archivo data.csv (texto).\n"
 				"9- Guardar los datos de los pasajeros en el archivo data.csv (binario).\n"
-				"10- Salir.\n"
+    			"10- Realizar copia de seguridad del archivo data.csv (texto)."
+				"11- Salir.\n"
 				"\nIngrese la opcion deseada: ");
 				fflush(stdin);
 				scanf("%d", &option);
@@ -199,7 +197,31 @@ int main()
 				}
                 break;
 
+
             case 10:
+
+            	// USE LAS FUNCIONES ll_clone y ll_contrainsAll para crear una copia de seguridad del archivo data.csv
+
+            	clonarArray = ll_clone(listaPasajeros);
+
+            	if(!ll_containsAll(listaPasajeros,clonarArray)){
+
+					validar = controller_saveAsText("CopiaSeguridad.csv",listaPasajeros);
+					if(validar == 1){
+						printf("Se realizo una copia de seguridad\n");
+						banderaGuaTex = 1;
+
+					}
+					else{
+						printf("No se ha podido realizar una copia de seguridad \n");
+					}
+            	}else{
+            		printf("La copia de seguridad ya se realizo");
+            	}
+				break;
+
+
+            case 11:
 
             	if (banderaGuaTex == 1 && banderaGuaBin == 1)
             	            	{
@@ -218,7 +240,7 @@ int main()
             	printf("Opcion no valida. \n");
                 break;
         }
-    }while(option != 10);
+    }while(option != 11);
 
     return 0;
 }
