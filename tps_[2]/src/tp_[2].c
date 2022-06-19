@@ -99,7 +99,8 @@ int main(void)
 							"3- Modificar precio del vuelo: \n"
 							"4- Modificar codigo de vuelo: \n"
 							"5- Modificar tipo de vuelo: \n"
-							"6- Salir.\n"
+							"6- Modificar estado del vuelo: \n"
+							"7- Salir."
 							"\nIngrese la opcion deseada: ");
 							scanf("%d", &respuestaSubMenu);
 							fflush(stdin);
@@ -136,7 +137,14 @@ int main(void)
 					break;
 					//falta el estado del vuelo
 			        //\n(1 = Activo, 2 = Cancelado): \n"
+
 				case 6:
+
+					rellenarInt(&pasajeros[posicionDada].statusFlight, "Ingrese el estado del vuelo: \n(1 = activo, 2 = cancelado): \n");
+
+					break;
+
+				case 7:
 
 					printf("Saliendo del menu de modificacion.");
 
@@ -150,7 +158,7 @@ int main(void)
 
 				}
 
-				}while(respuestaSubMenu != 6);
+				}while(respuestaSubMenu != 7);
 
 				break;
 
@@ -163,14 +171,16 @@ int main(void)
 				break;
 			case 4:
 
-				//sortPassengers(pasajeros,largo,1);
-
-				printPassenger(pasajeros,largo);
+				informData(pasajeros,largo);
 
 				break;
 
 			case 5:
 
+				addForcedPassengers(pasajeros, largo);
+				printf("\ Los pasajeros se cargaron correctamente \n");
+
+				break;
 
 			case 6:
 
