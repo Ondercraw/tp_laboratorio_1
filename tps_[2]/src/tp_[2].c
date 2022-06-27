@@ -9,30 +9,30 @@
  */
 
 /*
- *  (!) El trabajo pr·ctico deber· ser entregado en el repositorio de GIT correspondiente al TP2 de la materia, el mismo deber· de ser realizado utilizando Eclipse. Recuerden que tiene que encontrarse en el mismo repositorio reportado, no en uno nuevo.
- *	(!) Si no cuenta con los archivos .cproject y .project el TP no se corregir·.
+ *  (!) El trabajo pr√°ctico deber√° ser entregado en el repositorio de GIT correspondiente al TP2 de la materia, el mismo deber√° de ser realizado utilizando Eclipse. Recuerden que tiene que encontrarse en el mismo repositorio reportado, no en uno nuevo.
+ *	(!) Si no cuenta con los archivos .cproject y .project el TP no se corregir√°.
  *	(!) El TP debe contar, al menos, con la biblioteca correspondiente a la entidad y otra donde se encuentren los inputs.
  *	(!) Recuerden que si el TP no compila o rompe al momento de hacer alguna prueba se encuentra desaprobado.
  *	(!) No se deben modificar los prototipos de las funciones dadas en el enunciado
  *
- *  Una aerolÌnea requiere un sistema para administrar los pasajeros de cada vuelo. Se sabe que
- *	no puede tener m·s de 2000 pasajeros.
+ *  Una aerol√≠nea requiere un sistema para administrar los pasajeros de cada vuelo. Se sabe que
+ *	no puede tener m√°s de 2000 pasajeros.
  *	Datos:
  *
- *	El sistema deber· tener el siguiente men˙ de opciones:
- *	1. ALTAS: Se debe permitir ingresar un pasajero calculando autom·ticamente el
- *	n˙mero de Id. El resto de los campos se le pedir· al usuario.
- *	2. MODIFICAR: Se ingresar· el N˙mero de Id, permitiendo modificar: o Nombre o Apellido
- *	o Precio o Tipo de pasajero o CÛdigo de vuelo
- *	3. BAJA: Se ingresar· el N˙mero de Id y se eliminar· el empleado del sistema.
+ *	El sistema deber√° tener el siguiente men√∫ de opciones:
+ *	1. ALTAS: Se debe permitir ingresar un pasajero calculando autom√°ticamente el
+ *	n√∫mero de Id. El resto de los campos se le pedir√° al usuario.
+ *	2. MODIFICAR: Se ingresar√° el N√∫mero de Id, permitiendo modificar: o Nombre o Apellido
+ *	o Precio o Tipo de pasajero o C√≥digo de vuelo
+ *	3. BAJA: Se ingresar√° el N√∫mero de Id y se eliminar√° el empleado del sistema.
  *	4. INFORMAR:
- * 	1. Listado de los pasajeros ordenados alfabÈticamente por Apellido y Tipo de pasajero.
- * 	2. Total y promedio de los precios de los pasajes, y cu·ntos pasajeros superan el precio
+ * 	1. Listado de los pasajeros ordenados alfab√©ticamente por Apellido y Tipo de pasajero.
+ * 	2. Total y promedio de los precios de los pasajes, y cu√°ntos pasajeros superan el precio
  *	promedio.
- *	3. Listado de los pasajeros por CÛdigo de vuelo y estados de vuelos ëACTIVOí.
+ *	3. Listado de los pasajeros por C√≥digo de vuelo y estados de vuelos ‚ÄòACTIVO‚Äô.
  *
  *
- *	                               EL TP ESTA INCOMPLETO
+ *	                             
  *
  */
 
